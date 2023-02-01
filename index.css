@@ -58,21 +58,37 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
     background-color: rgb(53, 52, 51);
     border-radius: 50%;
-
+    transition: ease-in-out 0.2s;
+    border: 2px solid black;
+}
+.number:hover{
+    font-weight: 900;
+    background-color:darkslategray;
+    color: white;
+    transition: ease-in-out 0.2s;
+    border: 2px solid darkslategray;
 }
 .sign{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
     background-color: rgba(240, 143, 8, 0.976);
     border-radius: 50%;
+    border: 2px solid black;
+}
+.sign:hover{
+    font-weight: 900;
+    background-color:orangered;
+    color: white;
+    transition: ease-in-out 0.2s;
+    border: 2px solid orangered;
 }
 /* 
 #button-7{
