@@ -164,7 +164,11 @@ if (katei === "kakeru") {
 if (katei === "waru") {
     num2 = Number(kaitou.innerText);
     if (num2 === 0){
-        kaitou.innerText="0で割ることはでいません"
+        kaitou.innerHTML="ごめん！！<br>0で割ることはできません!";
+        kaitou.style.fontSize = "2rem";
+        kaitou.style.display = "flex";
+        kaitou.style.justifyContent = "center";
+        kaitou.style.alignItems = "center";
     }else{   
         kaitou.innerText = num1 / num2;
         digiNum();
@@ -357,7 +361,11 @@ if  (katei === "kakeru") {
 if  (katei === "waru") {
     num2 = Number(kaitou.innerText);
     if (num2 === 0){
-        kaitou.innerText = "can't be divided by zero!"
+        kaitou.innerHTML = "Oops...<br>Can not divide by zero!";
+        kaitou.style.fontSize = "2rem";
+        kaitou.style.display = "flex";
+        kaitou.style.justifyContent = "center";
+        kaitou.style.alignItems = "center";
     }else {
         kaitou.innerText = num1 / num2;
     }
