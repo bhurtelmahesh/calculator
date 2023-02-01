@@ -62,14 +62,14 @@ p{
     height: 98px;
     background-color: rgb(53, 52, 51);
     border-radius: 50%;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
     border: 2px solid black;
 }
 .number:hover{
     font-weight: 900;
     background-color:darkslategray;
     color: white;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
     border: 2px solid darkslategray;
 }
 .sign{
@@ -82,12 +82,13 @@ p{
     background-color: rgba(240, 143, 8, 0.976);
     border-radius: 50%;
     border: 2px solid black;
+    transition: ease-in-out 0.3s;
 }
 .sign:hover{
     font-weight: 900;
     background-color:orangered;
     color: white;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
     border: 2px solid orangered;
 }
 /* 
