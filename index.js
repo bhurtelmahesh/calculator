@@ -184,6 +184,8 @@ if (event.key === "Backspace") {
     kaitou.innerText = "0";
     kaitou.style.justifyContent = "flex-end";
     kaitou.style.alignItems = "flex-end";
+    kaitou.style.fontSize = "3rem";
+
 }
 
 
@@ -191,6 +193,7 @@ if (event.key === "c"){
     kaitou.innerText = "0"
     kaitou.style.justifyContent = "flex-end";
     kaitou.style.alignItems = "flex-end";
+    kaitou.style.fontSize = "3rem";
 
 }
 if (event.key === "d"){
@@ -384,6 +387,8 @@ document.getElementById(
     kaitou.innerText = "0"
     kaitou.style.justifyContent = "flex-end";
     kaitou.style.alignItems = "flex-end";
+    kaitou.style.fontSize = "3rem";
+    
 }
 }
  
